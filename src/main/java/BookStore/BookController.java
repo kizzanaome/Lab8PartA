@@ -15,7 +15,7 @@ public class BookController {
 
 
 
-    @PostMapping("/greeting")
+    @PostMapping
     public ResponseEntity<?> addBook(@RequestBody Book book){
 
         try {
